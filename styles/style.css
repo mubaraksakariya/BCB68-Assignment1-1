@@ -1,0 +1,204 @@
+body{
+    margin-right: 2%;
+    margin-left: 2%;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: roboto,sans-serif;
+}
+.static-logo{
+    position:fixed;
+    z-index: 2;
+    text-align: right;
+    width: 97% ;
+    padding-top: 10%;
+}
+.header-div{
+    background-color: white;
+    width: 96%;
+    height: 19%;
+    position:fixed ;
+    top :0;
+    z-index: 99;
+    
+}
+.header-div-menupng{
+    padding-top: 4%;
+    width: 50px;
+    position: relative;
+    float: right;
+}
+/* END of Header Part */
+/* Content 1----Banner---------------- */
+
+.banner-div{
+    /* border: solid red; */
+    padding-top: 9%;
+    width: 100%;
+    padding-left: .5%;
+    display:inline-block;
+}
+.batchanimg{
+    width: 99%;
+    border-radius: 20px;
+    position: relative
+}
+.banner-text-div{
+    
+    position: absolute;
+    z-index: 1;
+    margin-left: 52%;
+    margin-top: 14%;
+    padding: 0%;
+}
+.banner-button{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.reddot{
+    background-color: rgb(207, 49, 49);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-top: 0%;
+    margin-left: 2%;
+    padding-bottom: 0;
+}
+/*content 1 Banner end ----------------------*/
+/* content typ1---------------------------- */
+.content-outer-div{
+    /* border: solid rebeccapurple; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content-inner-div{
+    width: 65%;
+    /* border: solid greenyellow; */
+    display: flex;
+    gap: 1 rem;
+    justify-content:space-around ;
+    margin-top: 70px;
+    margin-bottom: 60px ;
+    border-bottom: solid gray;
+    border-width: thin;
+    padding-bottom: 3%;
+}
+.content-proud{
+    /* border: solid blue; */
+    width: 420px;
+    height: 315px;
+    
+}
+.content-youtube{
+    /* border: solid blue; */
+    width: 420px;
+    height: 315px;
+    
+}
+.content-1-button{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+/* content typ1------------end---------------- */
+/* content typ2---------------------------- */
+.content-outer-div-type2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    /* border: solid green; */
+}
+.content-inner-div-type2{
+    /* border: solid blue; */
+    overflow: hidden;
+    border-bottom: solid gray;
+    border-width: thin;
+    padding-bottom: 3%;
+}
+.content-img{
+    border-radius: 20px;
+    display: block;
+}
+.content-img:hover{
+    transform: scale(1.02);
+}
+.content-inner-div-type2 img{
+    transition: transform .5s ease;
+}
+.content-type2-overlay{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    margin-top: 27%;
+    margin-left: 2%;
+    font-style: normal;
+}
+.rupees{
+    background-color: #fff;
+    display:flex;
+    border-radius: 5px;
+    padding: 4px;
+    width: fit-content;
+    height: fit-content;
+    align-content:flex-start;
+}
+.content-button-text{
+    width: 100%;
+    height: 1px;
+    font-size: 85%;
+}
+.big-reddot{
+    background-color: red;
+    /* border: solid red; */
+    width: 315px;
+    height: 315px;
+    border-radius: 100%;
+    
+}
+/* story------------------------------ */
+.content-story{
+    display: flex;
+    justify-content:center;
+    gap: 5%;
+    /* border: solid blue; */
+    width: 420px;
+    height: 315px;
+}
+
+/* Footer-------------------------- */
+
+.footer-outer-div{
+    border-bottom: solid gray;
+    border-top: solid gray;
+    border-width: thin;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    /* border: solid red; */
+    justify-content: space-between;
+    
+}
+.footer-inner-div{
+    /* border: solid blue; */
+    height:auto;
+}
+li{
+    height: 40%;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #58595b;
+}
